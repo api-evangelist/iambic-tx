@@ -1,0 +1,90 @@
+aid: iambic-tx
+name: Iambic Therapeutics
+description: >-
+  Iambic Therapeutics is a San Diego, California AI-driven drug discovery
+  company founded in 2019 by Thomas Miller (CEO) and Fred Manby (CTO) that
+  designs small-molecule therapeutics for oncology and other indications.
+  Iambic builds proprietary AI models for drug discovery, including Enchant,
+  a multimodal transformer that predicts clinical properties (pharmacokinetics,
+  cellular and biochemical activity) of candidate molecules from early
+  discovery data, and NeuralPLexer (now NeuralPLexer3), a flow-based
+  generative model for protein-ligand complex structure prediction used to
+  identify cryptic pockets and guide structure-based design. Both lines of
+  work have been published at venues including NeurIPS 2025. The company's
+  internal pipeline is oncology-led: IAM1363, a brain-penetrant selective
+  HER2 / HER2-mutant inhibitor, completed Phase 1/1b dose escalation in 2025
+  and is in dose optimization with clinical activity reported at ESMO 2025;
+  IAM-K1 (KIF18A) and IAM-C1 (CDK2/4) are preclinical, alongside
+  undisclosed neurology, gastrointestinal, and inflammation discovery
+  programs. In February 2026 Iambic announced a discovery and technology
+  collaboration with Takeda worth up to ~$1.7B plus royalties, following a
+  $100M+ private financing in November 2025 and total disclosed funding of
+  approximately $334M. The company has been named to the CNBC Disruptor 50
+  list in 2025 and 2026 and has signaled intent to access public markets,
+  including via a SPAC. Iambic's public GitHub footprint is limited to
+  np-bench, a BSD-3 benchmark library for 3D biomolecular structure
+  prediction; the underlying NeuralPLexer and Enchant models are proprietary
+  and there is no public developer API, SDK, or commercial platform offering.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI Drug Discovery
+  - Drug Discovery
+  - Therapeutics
+  - Oncology
+  - Small Molecules
+  - HER2
+  - KIF18A
+  - CDK2 CDK4
+  - Multimodal Transformers
+  - Structure Prediction
+  - Protein Ligand
+  - Enchant
+  - NeuralPLexer
+  - Biotech
+  - San Diego
+url: https://raw.githubusercontent.com/api-evangelist/iambic-tx/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.iambic.ai
+  - type: Platform
+    url: https://www.iambic.ai/platform
+  - type: Pipeline
+    url: https://www.iambic.ai/pipeline
+  - type: Partners
+    url: https://www.iambic.ai/partners
+  - type: About
+    url: https://www.iambic.ai/about
+  - type: News
+    url: https://www.iambic.ai/news
+  - type: Careers
+    url: https://www.iambic.ai/careers
+  - type: Contact
+    url: https://www.iambic.ai/contact
+  - type: Enchant
+    url: https://www.iambic.ai/post/enchant-announcement
+  - type: EnchantV2
+    url: https://www.iambic.ai/post/iambic-announces-enchant-v2-its-next-generation-ai-model-for-predicting-the-clinical-viability-of-drug-discovery-programs
+  - type: NeuralPLexer
+    url: https://www.iambic.ai/post/neuralplexer
+  - type: TakedaCollaboration
+    url: https://www.iambic.ai/post/iambic-announces-collaboration-with-takeda
+  - type: IAM1363ESMO
+    url: https://www.iambic.ai/post/esmo-iam1363
+  - type: IAM1363DoseEscalation
+    url: https://www.iambic.ai/post/dose-escalation
+  - type: GitHub
+    url: https://github.com/iambic-therapeutics
+  - type: NPBench
+    url: https://github.com/iambic-therapeutics/np-bench
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/iambic-therapeutics
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
