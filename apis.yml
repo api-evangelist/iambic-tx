@@ -51,6 +51,8 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/iambic-tx-domain-security.yml
   - type: Website
     url: https://www.iambic.ai
   - type: Platform
@@ -85,6 +87,8 @@ common:
     url: https://github.com/iambic-therapeutics/np-bench
   - type: LinkedIn
     url: https://www.linkedin.com/company/iambic-therapeutics
+  - url: https://www.iambic.ai/news
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
